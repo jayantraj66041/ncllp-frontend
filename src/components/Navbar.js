@@ -5,10 +5,10 @@ function Navbar() {
   return (
     <nav className='navbar sticky-top navbar-expand-lg navbar-dark bg-danger'>
         <div className="container">
-            <Link to="/ncllp-frontend" className="navbar-brand">Nemesis Consultants LLP</Link>
+            <Link to="/" className="navbar-brand">Nemesis Consultants LLP</Link>
             <ul className="navbar-nav">
                 <li className="nav-item">
-                    <Link to="/ncllp-frontend" className="nav-link">Home</Link>
+                    <Link to="/" className="nav-link">Home</Link>
                 </li>
                 <li className="nav-item">
                     <Link to='/login' className="nav-link">Login</Link>

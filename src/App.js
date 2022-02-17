@@ -17,7 +17,7 @@ function App() {
         <div className="container">
           <div className="row my-4">
             <Switch>
-              <Route exact path='/ncllp-frontend'>
+              <Route exact path='/'>
                 <Home/>
               </Route>
               <Route exact path='/login'>
